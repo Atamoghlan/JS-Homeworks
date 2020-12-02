@@ -1,13 +1,13 @@
 //Найти сумму четных чисел и их количество в диапазоне от 1 до 99
-var sum = 0
-var count = 0
-for(var i = 1; i < 99; i++) 
+let sum = 0;
+let count = 0;
+for(let i = 1; i < 99; i++) 
 {
     if (i % 2 == 0)
     {
-        sum+=i
-        count+=1
+        sum+=i;
+        count+=1;
     }
     
 }
-console.log(`Сумма четных чисел ${sum}\nКоличество четных чисел ${count}`)
+console.log(`Сумма четных чисел ${sum}\nКоличество четных чисел ${count}`);
